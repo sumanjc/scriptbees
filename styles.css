@@ -1,0 +1,24 @@
+.homeDiv{
+    background-color:#F4F3F3;
+}
+.img{
+    border: 2px solid rgb(177, 171, 171);
+}
+.card1{
+    margin-top: -150px;
+}
+.icons{
+    cursor: pointer;
+}
+.padding1{
+    padding-right:0px;
+    padding-left:0px;
+}
+@media screen and (max-width: 600px) {
+    .card1 {
+        margin-top: 20px
+    }
+    .leftCard{
+        padding-right: 0px;
+    }
+}

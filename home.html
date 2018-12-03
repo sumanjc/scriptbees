@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">Logo</a>
+    </nav>
+    <div class="bnar">
+        <img src="./img/Bitmap.png" width="100%">
+    </div>
+    <div class="container-fluid">
+        <div class="row homeDiv">
+            <div class="col-sm-12 col-md-4">
+                <div>
+                    <div class="card card1 ml-4">
+                        <h4 class="card-title mt-2 text-center">About Organization</h4>
+                        <img class="card-img-top img m-3" src="./img/whiteImg.jpg" alt="Card image" style="width:88%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and
+                                engineer</p>
+                            <a href="#" class="text-primary">See Profile</a>
+                        </div>
+                    </div>
+                    <div class="card ml-4 mt-4">
+                        <h4 class="card-title ml-1 mt-3">Similar Opertunitys</h4>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./img/whiteImg.jpg" class="img" width="100%" height="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p>Some example text some example text</p>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-3">
+                                    <img src="./img/whiteImg.jpg" class="img" width="100%" height="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p>Some example text some example text</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="mt-3">
+                    <div class="row">
+                        <div class="col-md-8 padding1" style="padding-left:0px;padding-right:0px;">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Handbooks for children</h2>
+                                    <button class="btn btn-danger">one time event</button>
+                                    <button class="btn btn-link float-right"><span class="fa fa-print mr-2"></span>Print</button>
+                                    <div>
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <h6>Time:</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <h6>Sep 27,8:00 AM - 1:00 PM</h6>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <h6>Location:</h6>
+                                            </div>
+                                            <div class="col-6">
+                                                <h6>64102 jackson,kansas,<br> Mississippi, 64102</h6>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="">
+                                            <a href="#" class="mr-2">Info</a>
+                                            <a href="#" class="mr-2">Photos</a>
+                                            <a href="#" class="mr-2">Video</a>
+                                        </div>
+                                        <hr>
+                                        <div class="text-center">
+                                            <span class="fa fa-cloud-upload" style="font-size:130px"></span>
+                                            <p>No photos Upload At</p>
+                                            <a href="#"><span class="fa fa-plus mr-2"></span> Photos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 leftCard" style="padding-left:0px;padding-right:40px; @media (max-width: 600px) {padding-right: 0px;}">
+                            <div class="card">
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success btn-block" data-toggle="modal"
+                                        data-target="#myModal">Apply now</button><br>
+                                    <button type="button" class="btn btn-outline-secondary btn-block mt-2">Contact us</button>
+                                    <br>
+
+                                    <!-- The Modal -->
+                                    <div class="modal" id="myModal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+
+                                                <!-- Modal Header -->
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Modal Heading</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+
+                                                <!-- Modal body -->
+                                                <div class="modal-body">
+                                                    Modal body..
+                                                </div>
+
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5>Volunteer opputunity for:</h5>
+                                        <i class="fa fa-male mr-4" style="font-size:25px;"></i><a href="#" class="mr-2"
+                                            style="color:black;">Individuals</a><br>
+                                        <i class="fa fa-group mr-4 mt-2" style="font-size:25px;"></i><a href="#" class="mr-2"
+                                            style="color:black;">Groups</a>
+                                        <h5 class="mt-2">Share Opputunity</h5>
+                                        <span class="fa fa-google-plus mr-3 icons" style="font-size:25px;color:#F4501D;"></span>
+                                        <span class="fa fa-facebook mr-3 icons" style="font-size:25px;color:#3F51B5;"></span>
+                                        <span class="fa fa-twitter mr-3 icons" style="font-size:25px;color: #03A9F4;"></span>
+                                        <h5>who is attending?</h5>
+                                        <input type="text" class="form-input">
+                                        <div class="row mt-3">
+                                            <div class="col-sm-3 col-md-3">
+                                                <img src="./img/whiteImg.jpg" class="img" width="100%" height="70%">
+                                            </div>
+                                            <div class="col-sm-9 col-md-9">
+                                                <p>Some example text some </p>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-sm-3 col-md-3">
+                                                <img src="./img/whiteImg.jpg" class="img" width="100%" height="70%">
+                                            </div>
+                                            <div class="col-sm-9 col-md-9">
+                                                <p>Some example text some</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
