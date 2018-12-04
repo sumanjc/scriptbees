@@ -11,14 +11,38 @@
     cursor: pointer;
 }
 .padding1{
-    padding-right:0px;
-    padding-left:0px;
+margin-right: 0px;
+padding-right: 40px;
+}
+.close{
+    color: white;
+}
+.mar{
+    margin-left: 20px;
 }
 @media screen and (max-width: 600px) {
     .card1 {
         margin-top: 20px
     }
     .leftCard{
-        padding-right: 0px;
+        margin-top: 0px;
     }
+    .ft{
+        margin-top: 0px;
+        margin-left:0px;
+    }
+    .mar{
+        margin-left: 0px;
+    }
+}
+.ft{
+    margin-top: 20px;
+    margin-left:40px;
+}
+.modal-header{
+    background-color: black;
+    color:white;
+}
+.modal{
+    margin-top: 100px; 
 }
